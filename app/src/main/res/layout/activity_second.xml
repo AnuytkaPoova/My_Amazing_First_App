@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@color/light"
+    android:orientation="vertical"
+    tools:context=".SecondActivity">
+
+    <TextView
+        android:id="@+id/my_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/layout_bg"
+        android:padding="13dp"
+        android:text="@string/textInfoPage"
+        android:textSize="16sp"
+        tools:text="Всё о ней говорит: утром ранним заря,\nИ цветы, что весной украшают поля,\nВсё твердит мне о ней, о прекрасных чертах, \nИ её воспевать побуждает в стихах! \n@ A.де Марвейл" />
+
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="логин: " />
+
+    <EditText
+        android:id="@+id/personName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="имя:"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="телефон: "
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="пароль: "
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="почта: "
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/dateBD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="дата рождения: "
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/timeBD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="время рождения: "
+        android:inputType="time" />
+
+    <EditText
+        android:id="@+id/bodyWeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="вес: "
+        android:inputType="number" />
+
+    <ImageView
+        android:id="@+id/start_page"
+        android:layout_width="173dp"
+        android:layout_height="154dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/image4" />
+
+</LinearLayout>
+
+<!--
+
+-->

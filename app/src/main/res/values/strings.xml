@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Amazing First Android App</string>
+    <string name="info">мои данные</string>
+    <string name="note">мои записи</string>
+    <string name="calendar">мои планы</string>
+    <string name="textStartPage">Одной тебе, тебе одной,\nлюбви и счястия царице,\nТебе прекрасной молодой, \nВсе жизни лучшие страницы! \n               @ A.Блок </string>
+    <string name="textInfoPage">Всё о ней говорит: утром ранним заря,\nИ цветы, что весной украшают поля,\nВсё твердит мне о ней, о прекрасных чертах, \nИ её воспевать побуждает в стихах! \n           @ A.де Марвейл</string>
+</resources>

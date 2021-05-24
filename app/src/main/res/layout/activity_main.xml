@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image2"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/image6" />
+
+
+    <TextView
+        android:id="@+id/my_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/layout_bg"
+        android:padding="13dp"
+        android:text="@string/textStartPage"
+        android:textSize="16sp"
+        tools:text="Одной тебе, тебе одной,\nлюбви и счястия царице,\nТебе прекрасной молодой, \nВсе жизни лучшие страницы! \n@A.Блок"
+        />
+
+    <Button
+        android:id="@+id/button_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/light"
+        android:text="@string/info"
+        android:textSize="16sp"
+        tools:targetApi="lollipop" />
+    <Button
+        android:id="@+id/button_calendar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/light"
+        android:text="@string/calendar"
+        android:textSize="16sp"
+        tools:targetApi="lollipop" />
+    <Button
+        android:id="@+id/button_note"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/light"
+        android:text="@string/note"
+        android:textSize="16sp"
+        tools:targetApi="lollipop" />
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="как прошёл день:  "
+        android:textColor="@color/grey"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Switch
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="10dp"
+        android:switchPadding="10dp"
+        android:text="Alarm"
+        android:textColor="@color/grey"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        />
+
+    <CheckBox
+        android:id="@+id/checkBox_1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="CheckBox"
+        android:layout_marginLeft="100dp"
+        android:textColor="@color/grey"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:checked="true"
+        android:layout_marginStart="100dp" />
+
+    <ToggleButton
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="100dp"
+        android:textColor="@color/grey"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:checked="true"
+        android:text="ToggleButton"
+        android:textOff="выкл"
+        android:textOn="вкл"/>
+
+</LinearLayout>
+
