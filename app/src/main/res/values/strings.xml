@@ -5,4 +5,9 @@
     <string name="calendar">мои планы</string>
     <string name="textStartPage">Одной тебе, тебе одной,\nлюбви и счястия царице,\nТебе прекрасной молодой, \nВсе жизни лучшие страницы! \n              @ A.Блок </string>
     <string name="textInfoPage">Всё о ней говорит: утром ранним заря,\nИ цветы, что весной украшают поля,\nВсё твердит мне о ней, о прекрасных чертах, \nИ её воспевать побуждает в стихах! \n          @ A.де Марвейл</string>
+    <string name="fastInput">как прошёл день:</string>
+    <string name="off">выкл</string>
+    <string name="on">вкл</string>
+    <string name="togglebutton">ToggleButton</string>
+    <string name="CheckBox">CheckBox</string>
 </resources>

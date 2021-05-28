@@ -6,8 +6,11 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+/*
+убрала implements View.OnClickListener у класса MainActivity
+ */
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+public class MainActivity extends AppCompatActivity  {
     Button button_info;
     Button button_calendar;
     Button button_note;
@@ -15,6 +18,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
+       /*
         button_info = (Button) findViewById(R.id.button_info);
         button_info.setOnClickListener((View.OnClickListener) this);
 
@@ -23,8 +29,28 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         button_note = (Button) findViewById(R.id.button_note);
         button_note.setOnClickListener((View.OnClickListener) this);
+
+        */
     }
 
+
+    public void clickInfo(View view) {
+        runActivity(SecondActivity.class);
+    }
+
+    public void clickCalendar(View view) {
+        runActivity(ThirdActivity.class);
+    }
+
+    public void clickNote(View view) {
+        runActivity(FourthActivity.class);
+    }
+
+    private void runActivity(Class<?> cls) {
+        Intent intent = new Intent(this, cls);
+        startActivity(intent);
+    }
+    /*
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
@@ -44,6 +70,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
         }
     }
+
+     */
 
 
 
